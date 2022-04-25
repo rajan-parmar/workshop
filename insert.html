@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Insert Student Result</title>
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+</head>
+
+<body id="page-top">
+    <div id="wrapper">
+        <div id="content-wrapper" class="d-flex flex-column">
+            <div id="content">
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="" id="userDropdown" role="button" data-toggle="dropdown">
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Student</span>
+                                <img class="img-profile rounded-circle" src="images/logo.png" alt="logo">
+                            </a>
+
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in">
+                                <a class="dropdown-item" href="login.html">
+                                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Logout
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="container">
+                    <div class="card o-hidden border-0 shadow-lg my-5">
+                        <div class="row">
+                            <div class="col-lg-5 d-none d-lg-block bg-register-image"></div>
+
+                            <div class="col-lg-7">
+                                <div class="p-5">
+                                    <div class="text-center">
+                                        <h1 class="h4 text-gray-900 mb-4">Insert Result</h1>
+                                    </div>
+
+                                    <form class="user">
+                                        <div class="form-group row">
+                                            <div class="col-sm-6 mb-3 mb-sm-0">
+                                                <input type="text" class="form-control form-control-user" placeholder="Student Name">
+                                            </div>
+
+                                            <div class="col-sm-6">
+                                                <input type="text" class="form-control form-control-user" placeholder="Percentage">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row align-items-center">
+                                            <div class="col-sm-6 ml-2 mb-3 mb-sm-0">
+                                                <label class="h6 text-gray-900 mr-3">Backlog:</label>
+                                                <label class="mr-2">
+                                                    <input type="radio" name="ati_keti" value="Yes"> Yes
+                                                </label>
+
+                                                <label>
+                                                    <input type="radio" name="ati_keti" value="No"> No
+                                                </label>
+                                            </div>
+
+                                            <div class="col-sm-5">
+                                                <input type="file" class="form-control-user" accept="image/*">
+                                            </div>
+                                        </div>
+
+                                        <a href="index.html" class="btn btn-primary btn-user btn-block">
+                                            Insert
+                                        </a>
+
+                                        <a href="index.html" class="btn btn-secondary btn-user btn-block">
+                                            Cancel
+                                        </a>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
